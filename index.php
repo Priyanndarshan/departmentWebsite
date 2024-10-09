@@ -74,7 +74,7 @@ if (isset($_POST['submit'])) {
             <p class="error"><?php echo $error; ?></p>
         <?php endif; ?>
         <form method="post" action="">
-            <input type="text" name="username" placeholder="Username" required>
+           
             <input type="password" name="password" placeholder="Password" required>
             <input type="submit" name="submit" value="Login">
         </form>
